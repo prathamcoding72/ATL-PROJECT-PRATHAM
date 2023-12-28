@@ -1,0 +1,11 @@
+Model Information:
+* title:	NASA Opportunity Mars Rover
+* source:	https://sketchfab.com/3d-models/nasa-opportunity-mars-rover-16681f5ce27f4da19e68cfd086cef88f
+* author:	Space Explorers Academy (https://sketchfab.com/SpaceExplorersAcademy)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "NASA Opportunity Mars Rover" (https://sketchfab.com/3d-models/nasa-opportunity-mars-rover-16681f5ce27f4da19e68cfd086cef88f) by Space Explorers Academy (https://sketchfab.com/SpaceExplorersAcademy) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

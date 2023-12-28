@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+
+    <script src="./Rotation.js"></script>
+
+  </head>
+
+  <body>
+    <a-scene background="color:black">
+
+      <a-entity id="look" look-controls camera position="0 2 20"></a-entity>
+
+      <!--Asset Management-->
+      <a-assets timeout="10000">   
+      <a-asset-item
+      id="mars"
+      src="./assets/models/desert_landscape/scene.gltf"
+      ></a-asset-item>     
+      <a-asset-item
+      id="rover"
+      src="./assets/models/nasa_opportunity_mars_rover/scene.gltf">
+      </a-asset-item>  
+        
+      </a-assets>
+      <!-- Terrain  -->
+     <a-entity
+     id="mars_model"
+     gltf-model="#mars"
+     position="0 0 10"
+     scale="6 6 6"
+     mars-rotation-reader
+     ></a-entity>
+     <a-entity
+     id="rover_model"
+     gltf-model="#rover"
+     position="0 0 15"
+     rotation="0 90 0"
+     scale="1 1"
+     rover-rotation-reader
+     ></a-entity>
+
+      
+    </a-scene>
+  </body>
+</html>
